@@ -1,3 +1,13 @@
+# Big O notation
+
+general recursive functions - O( branches^depth )
+when algoriths divide the data structures at each step - O(log N)
+for loop inside a for - O(n*n)
+two different fors - O(n+m)
+
+############################################################################
+#Data structures
+
 # Difference between python arrays and lists
 
 Python’s arrays are homogenous -
@@ -26,3 +36,69 @@ The order of data elements in a dictionary is not fixed.
 So the search and insertion function of a data element becomes much faster
 as the key values themselves
 become the index of the array which stores the data.
+
+# Graphs
+
+For example computer network topology or
+analysing molecular structures of chemical compounds.
+They are also used in city traffic or route planning and
+even in human languages and their grammar.
+
+###################################################################################
+
+# Algorithms
+
+# Depth first search - Tree
+
+Time Complexity: O(n)
+Auxiliary Space : If we don’t consider size of stack for function calls
+then O(1) otherwise O(n).
+
+Therefore, the Depth First Traversals of this Tree will be:
+(a) Inorder   (Left, Root, Right)
+
+    In case of binary search trees (BST),
+    Inorder traversal gives nodes in non-decreasing order.
+    To get nodes of BST in non-increasing order, a variation of Inorder traversal
+    where Inorder traversal s reversed can be used.
+
+(b) Preorder  (Root, Left, Right)
+
+    Preorder traversal is used to create a copy of the tree.
+    Preorder traversal is also used to get prefix expression
+    on of an expression tree.
+    Please see http://en.wikipedia.org/wiki/Polish_notation
+    to know why prefix expressions are useful.
+
+(c) Postorder (Left, Right, Root)
+
+    Postorder traversal is used to delete the tree.
+    Please see the question for deletion of tree for details.
+    Postorder traversal is also useful to get the postfix expression of an expression tree.
+
+# Breadth first traversal - Tree
+
+it goes same as BFS for graph ( layer by layer using queue)
+Time complexity is O(n) as each is visted once
+in worst case scenario it could be O(n^2)
+Space complexity is O(n)
+
+# Depth first traversal - Graph
+
+Time complexity: O(V + E), where V is the number of vertices and
+E is the number of edges in the graph.
+Space Complexity: O(V).
+Since, an extra visited array is needed of size V.
+
+# Bread First traversal - Graph
+
+we visit the graph layer by layer
+start with root node(arbitrary node)
+if adjacent nodes are visited, visited[] has true else false
+append the visited nodes in the queue
+while the queue has len
+pop the first element from queue and check for it`s adjacent nodes
+and do the above process again
+
+Time Complexity: O(V+E) where V is number of vertices in the graph and
+E is number of edges in the graph.
