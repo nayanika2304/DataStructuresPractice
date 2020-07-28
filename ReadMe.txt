@@ -1,10 +1,12 @@
 # Big O notation
 
-general recursive functions - O( branches^depth )
-when algoriths divide the data structures at each step - O(log N)
-for loop inside a for - O(n*n)
-two different fors - O(n+m)
-
+--general recursive functions - O( branches^depth )
+--when algoriths divide the data structures at each step(binary search tree)
+  - O(log N)
+--for loop inside a for - O(n*n)
+--two different fors - O(n+m)
+--for hash tables - worst case is O(n) and general is O(1)
+-- inserting in an array - inserting N elements takes O(N) work total
 ############################################################################
 #Data structures
 
@@ -102,3 +104,19 @@ and do the above process again
 
 Time Complexity: O(V+E) where V is number of vertices in the graph and
 E is number of edges in the graph.
+
+# Binary Search
+
+time complexity to O(Log n)
+
+# Merge sort
+
+Time complexity of Merge Sort is O(nLogn) in all 3 cases (worst, average and best)
+as merge sort always divides the array into two halves and
+take linear time to merge two halves.
+
+O(n) space complexity
+
+# Quick sort
+O(nLogn) time complexity
+o(1) space complexity
