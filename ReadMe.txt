@@ -120,3 +120,33 @@ O(n) space complexity
 # Quick sort
 O(nLogn) time complexity
 o(1) space complexity
+
+##########################################################################
+
+# Concepts of bit manipulation
+
+https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/
+https://codeburst.io/your-guide-to-bit-manipulation-48e7692f314a
+https://www.youtube.com/watch?v=NLKQEOgBAnw
+
+get the ith bit : x & (1<<i) !== 0
+set the ith bit : x | ( 1 << i)
+clear the ith bit : x & (~( 1 << i))
+
+# Memory Stack and Heap
+
+https://gribblelab.org/CBootCamp/7_Memory_Stack_vs_Heap.html
+
+# Recursion
+
+https://www.freecodecamp.org/news/how-recursion-works-explained-with-flowcharts-and-a-video-de61f40cb7f9/
+
+# Dynamic Programming
+
+Dynamic Programming is mainly an optimization over plain recursion.
+Wherever we see a recursive solution that has repeated calls for same inputs,
+we can optimize it using Dynamic Programming.
+
+For example, if we write simple recursive solution for Fibonacci Numbers,
+we get exponential time complexity and if we optimize it by storing solutions of subproblems,
+time complexity reduces to linear.
