@@ -128,11 +128,14 @@ o(1) space complexity
 https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/
 https://codeburst.io/your-guide-to-bit-manipulation-48e7692f314a
 https://www.youtube.com/watch?v=NLKQEOgBAnw
+https://www.interviewcake.com/concept/java/bit-shift
 
 get the ith bit : x & (1<<i) !== 0
 set the ith bit : x | ( 1 << i)
 clear the ith bit : x & (~( 1 << i))
 
+Subtract binary numbers : https://www.youtube.com/watch?v=OHf0Eg9ZhGQ
+add binary numbers : https://www.youtube.com/watch?v=sJXTo3EZoxM
 # Memory Stack and Heap
 
 https://gribblelab.org/CBootCamp/7_Memory_Stack_vs_Heap.html
