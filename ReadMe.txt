@@ -7,6 +7,8 @@
 --two different fors - O(n+m)
 --for hash tables - worst case is O(n) and general is O(1)
 -- inserting in an array - inserting N elements takes O(N) work total
+-- string concatenation takes O(n^2)
+
 ############################################################################
 #Data structures
 
