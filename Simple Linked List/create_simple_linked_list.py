@@ -16,7 +16,6 @@ class SLinkedList:
     def listprint(self):
         printval = self.headval
         while printval is not None:
-            print (printval.dataval)
             printval = printval.nextval
 
 list = SLinkedList()

@@ -12,7 +12,6 @@ def rotate_matrix(matrix):
     n = len(matrix)
     for layer in range(n//2):
         first, last = layer, n - layer - 1
-        print(first,last)
         for i in range(first, last):
             # save top
             top = matrix[layer][i]
