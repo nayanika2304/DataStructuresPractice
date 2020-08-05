@@ -10,6 +10,8 @@ First, move reference pointer to n nodes from head.
 Now move both pointers one by one until the reference pointer reaches the end.
 Now the main pointer will point to nth node from the end.
 Return the main pointer.
+
+geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
 '''
 class Node:
     # Constructor to initialize the node object
