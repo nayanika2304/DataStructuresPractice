@@ -11,6 +11,10 @@ Another way to think about what we're doing is that the initial random number ca
 and then we're locating the ith node in an in-order traversal.
 Subtracting LEFT_SIZE + 1 from i reflects that, when we go right,
 we skip over LEFT_SIZE + 1 nodes in the in-order traversal.
+
+https://www.youtube.com/watch?v=nj5jFhglw8U
+
+depth of tree is log n so time complexity is O(logn)
 '''
 from random import randint
 

@@ -132,9 +132,14 @@ https://codeburst.io/your-guide-to-bit-manipulation-48e7692f314a
 https://www.youtube.com/watch?v=NLKQEOgBAnw
 https://www.interviewcake.com/concept/java/bit-shift
 
+https://www.youtube.com/watch?v=fDKUq38H2jk
+arithmetic left and righ shift : https://www.youtube.com/watch?v=nSKT6Ph8u9Q
+
 get the ith bit : x & (1<<i) !== 0
 set the ith bit : x | ( 1 << i)
 clear the ith bit : x & (~( 1 << i))
+
+ c = c & (c - 1) will clear the least significant bit in c.
 
 Subtract binary numbers : https://www.youtube.com/watch?v=OHf0Eg9ZhGQ
 add binary numbers : https://www.youtube.com/watch?v=sJXTo3EZoxM
